@@ -92,7 +92,15 @@ main {
 }
 
 
-
+.pagdois{
+    background-image: url(16-hamburguer.jpeg);
+    margin: 0px;
+    padding: 15px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
 .content2 {
     padding: 0 40px
 }
@@ -102,20 +110,22 @@ main {
     margin-top: 30px;
     margin-bottom: 30px;
     margin-left: 30px;
-    color: #6B8E23;
+    color: #4d8f13;
+    padding: 5px;
 }
 
 .content2 h2 {
     font-size: 20px;
     margin-left: 30px;
     margin-bottom: 30px;
-    color: #5B3A24;
+    color: #FFC107;
+    padding: 5px;
 }
 
 .content2 p {
     margin-left: 30px;
-
-    color: #5B3A24;
+padding: 5px;
+    color: #FFC107;
 }
 
 
@@ -129,6 +139,7 @@ ul.lista {
 
 ul.lista li {
     padding-bottom: 10px;
+    color: #ffbf00;
 }
 
 .imagem {
@@ -162,27 +173,27 @@ ul.lista li {
 ul.lista p {
     font-size: 10px;
     margin-left: 40px;
-    color: rgba(0, 0, 0, 0.715);
+    color: rgb(145, 136, 14);
 }
 
 ul.lista p.paragrafo2 {
     font-size: 10px;
     margin-left: 70px;
-    color: rgba(0, 0, 0, 0.715);
+    color: rgb(145, 136, 14);;
 
 }
 
 ul.lista p.paragrafo3 {
     font-size: 10px;
     margin-left: 110px;
-    color: rgba(0, 0, 0, 0.715);
+    color: rgb(145, 136, 14);
 
 }
 
 ul.lista p.paragrafo4 {
     font-size: 10px;
     margin-left: 140px;
-    color: rgba(0, 0, 0, 0.715);
+    color: rgb(145, 136, 14);
     margin-bottom: 20px;
 
 }
@@ -258,7 +269,7 @@ button.botaoform {
     border-radius: 10px;
     border: none;
     margin-top: 10px;
-    background-color: #000000;
+    background-color: #6B8E23;
     margin-bottom: 30px;
     margin-top: 20px;
 }
@@ -269,3 +280,7 @@ button.botaoform a {
     color: white;
     font-weight: bolder;
 }
+
+button.botaoform:hover {
+    transform: translate(-3px, -3px);
+    transition: 0.3s;}
